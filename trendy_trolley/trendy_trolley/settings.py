@@ -56,12 +56,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    "http://192.168.1.27:3000",
     "http://localhost:3000",
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "http://localhost:5175",
-    "http://localhost:8000 ",
-    "http://127.0.0.1.9000",
 ]
 
 ROOT_URLCONF = 'trendy_trolley.urls'
